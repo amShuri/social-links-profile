@@ -45,25 +45,25 @@ body,
 .container {
   background-color: var(--medium-gray-clr);
   border-radius: 1rem;
-  padding: 2.8rem;
+  padding: 3rem;
   max-width: 384px;
   width: 100%;
+}
 
+.profile-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.1rem;
+  gap: 1.5rem;
 }
 
 .profile-img {
   border-radius: 100%;
-  margin-bottom: 1rem;
   width: 88px;
 }
 
 .profile-name {
   font-size: 1.7rem;
-  margin-bottom: -0.35rem;
 }
 
 .profile-name,
@@ -73,26 +73,34 @@ body,
 
 .profile-description {
   font-weight: var(--font-regular);
-  margin: 0.85rem;
+  margin: 0.5rem 0 2rem 0;
 }
 
 .profile-title {
   color: var(--orange-clr);
   font-weight: var(--font-semibold);
+  margin-top: 0.35rem;
 }
 
-.profile-link {
+.profile-links ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  list-style: none;
+}
+
+.profile-links a {
   background-color: var(--light-gray-clr);
   border-radius: 0.5rem;
   color: var(--white-clr);
+  display: block;
   font-weight: var(--font-bold);
   text-decoration: none;
   padding: 1rem;
-  width: 100%;
 }
 
-.profile-link:hover,
-.profile-link:focus {
+.profile-links a:hover,
+.profile-links a:focus {
   background-color: var(--orange-clr);
   color: var(--dark-gray-clr);
 }
