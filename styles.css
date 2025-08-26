@@ -5,7 +5,7 @@
 }
 
 :root {
-  --green-clr: hsl(75, 94%, 57%);
+  --orange-clr: hsl(26, 75%, 48%);
   --white-clr: hsl(0, 0%, 100%);
   --light-gray-clr: hsl(0, 0%, 20%);
   --medium-gray-clr: hsl(0, 0%, 12%);
@@ -77,7 +77,7 @@ body,
 }
 
 .profile-title {
-  color: var(--green-clr);
+  color: var(--orange-clr);
   font-weight: var(--font-semibold);
 }
 
@@ -93,7 +93,7 @@ body,
 
 .profile-link:hover,
 .profile-link:focus {
-  background-color: var(--green-clr);
+  background-color: var(--orange-clr);
   color: var(--dark-gray-clr);
 }
 
